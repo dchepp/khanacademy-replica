@@ -1,0 +1,26 @@
+/* CSS Reset */
+
+html{
+    color: white;
+}
+
+body{
+    background: rgb(70, 70, 70);
+    
+}
+
+section{
+    background: lightblue;
+    display: box-size;
+    block-size: 100%;
+    inline-size: 80%;
+    margin: 50px;
+    padding: 50px;
+    padding-bottom: 350px;
+    text-align: center;
+}
+
+h2, p {
+    text-align: left;
+}
+
