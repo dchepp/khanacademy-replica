@@ -1,14 +1,25 @@
 /* CSS Reset */
 
-html{
-    color: white;
-}
-
 body{
-    background: rgb(70, 70, 70);
-    
+    background: rgb(26, 25, 25);
 }
 
+body > section{
+    background: lightblue;
+    display: box-size;
+    block-size: 100%;
+    inline-size: 80%;
+    margin: 50px;
+    padding: 20px;
+    padding-bottom: 25px;
+    text-align: center; 
+}
+
+section > section{
+    border: solid green 5px;
+    padding: 10px;
+}
+/*
 section{
     background: lightblue;
     display: box-size;
@@ -19,8 +30,42 @@ section{
     padding-bottom: 350px;
     text-align: center;
 }
+*/
 
+header>ul>li>a {
+    text-decoration: none;
+}
 h2, p {
     text-align: left;
 }
 
+p{
+    float: left;
+}
+
+img{
+    float: right;
+
+
+/*
+li{
+    float: left;
+    margin: 10px;
+}
+*/
+
+/*
+.group:after{
+ clear: both;
+}
+
+.group{
+   clear: both;
+}
+p{
+    float: left;
+}
+
+img{
+    float: right;
+}*/
